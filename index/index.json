@@ -354,6 +354,13 @@
       "board": "breakout-ihp",
       "tiles": 240,
       "projects": 123
+    },
+    {
+      "id": "ttsky26e",
+      "name": "Tiny Tapeout SKY 26e",
+      "repo": "https://github.com/ttcodebot/tinytapeout-sky-26e",
+      "pdk": "sky130A",
+      "board": "breakout-sky"
     }
   ]
 }
