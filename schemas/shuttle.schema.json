@@ -24,7 +24,11 @@
           "author": { "type": "string" },
           "description": { "type": "string" },
           "clock_hz": { "type": "integer" },
-          "tiles": { "type": "string", "pattern": "^[1-8]+x[124]|0$" },
+          "tiles": {
+            "type": "string",
+            "pattern": "^([1-8]+x[124]|0|micro)$",
+            "description": "Size in tiles; '0' for a TTIHP25a subtile, 'micro' for a micro tile"
+          },
           "analog_pins": {
             "type": "array",
             "items": { "type": "integer" }
